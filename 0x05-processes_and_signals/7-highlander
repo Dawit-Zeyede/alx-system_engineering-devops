@@ -2,7 +2,7 @@
 # Highlander
 
 # I am invincible!!! when receiving a SIGTERM signal
-trap "echo I an invincible!!!" SIGTERM
+trap "echo I am invincible!!!" SIGTERM
 
 while true; do
 	echo "to infinity and beyond"
