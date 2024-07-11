@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#make a connection b/n nginx and port 80.
+
+link="/etc/nginx/sites-enabled/default"
+target="/etc/nginx/sites-available/default"
+sudo rm $link
+sudo ln -s $target $link
+sudo service nginx restart
