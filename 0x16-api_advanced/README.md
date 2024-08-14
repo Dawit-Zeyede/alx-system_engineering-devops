@@ -1,0 +1,1 @@
+API stands for Application Programming Interface. At its core, an API is a set of rules that allows different software applications to communicate with each other. It's a bridge between different software systems, enabling them to interact and exchange data in a structured and secure manner.
